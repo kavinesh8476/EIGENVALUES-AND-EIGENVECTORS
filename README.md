@@ -16,6 +16,9 @@ End the program
 
 ## Program:
 ```
+#Program to find the eigen values and eigen vectors.
+#Developed by: Kavinesh M
+#RegisterNumber:22008476
 import numpy as np
 A= np.array([[2,-3,0],[2,-5,0],[0,0,3]])
 eigenvalues , eigenvectors =np.linalg.eig(A)
